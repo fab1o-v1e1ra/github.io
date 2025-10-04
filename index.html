@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Site - Tamires Santos Contabilidade</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #4F1111;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        .intro {
+            text-align: center;
+            margin-bottom: 3rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .intro p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .models-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .model-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .model-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-header {
+            background-color: #4F1111;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .card-header h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .card-body {
+            padding: 1.5rem;
+        }
+        
+        .card-body p {
+            margin-bottom: 1.5rem;
+        }
+        
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #4F1111;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+        }
+        
+        .btn:hover {
+            background-color: #3a0d0d;
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid #4F1111;
+            color: #4F1111;
+        }
+        
+        .btn-outline:hover {
+            background-color: #4F1111;
+            color: white;
+        }
+        
+        footer {
+            background-color: #4F1111;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            .models-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tamires Santos Contabilidade</h1>
+        <p class="subtitle">Selecione um modelo para visualizar</p>
+    </header>
+    
+    <div class="container">
+        <section class="intro">
+            <p>Desenvolvemos diferentes versões do site para a Tamires Santos Contabilidade. Cada modelo apresenta o mesmo conteúdo, mas com layouts e estilos visuais distintos.</p>
+            <p>Selecione um dos modelos abaixo para visualizá-lo em uma nova aba. Todos incluem informações sobre serviços, diferenciais e formas de contato.</p>
+        </section>
+        
+        <div class="models-grid">
+            <!-- Modelo 1 -->
+            <div class="model-card">
+                <div class="card-header">
+                    <h3>Modelo 1</h3>
+                    <p>Layout Clássico</p>
+                </div>
+                <div class="card-body">
+                    <p>Design tradicional com cabeçalho lateral e estrutura linear. Foco na clareza e organização das informações.</p>
+                    <div class="buttons">
+                        <a href="modelo1_circular.html" class="btn" target="_blank">Abrir Versão Circular</a>
+                        <a href="modelo1_horizontal.html" class="btn btn-outline" target="_blank">Abrir Versão Horizontal</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modelo 2 -->
+            <div class="model-card">
+                <div class="card-header">
+                    <h3>Modelo 2</h3>
+                    <p>Layout Moderno</p>
+                </div>
+                <div class="card-body">
+                    <p>Design contemporâneo com elementos visuais diferenciados, como listas estilizadas e marca d'água.</p>
+                    <div class="buttons">
+                        <a href="modelo2_circular.html" class="btn" target="_blank">Abrir Versão Circular</a>
+                        <a href="modelo2_horizontal.html" class="btn btn-outline" target="_blank">Abrir Versão Horizontal</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modelo 3 -->
+            <div class="model-card">
+                <div class="card-header">
+                    <h3>Modelo 3</h3>
+                    <p>Layout Destaque</p>
+                </div>
+                <div class="card-body">
+                    <p>Design com cabeçalho colorido que chama atenção, mantendo a elegância e profissionalismo.</p>
+                    <div class="buttons">
+                        <a href="modelo3_circular.html" class="btn" target="_blank">Abrir Versão Circular</a>
+                        <a href="modelo3_horizontal.html" class="btn btn-outline" target="_blank">Abrir Versão Horizontal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© Tamires Santos Contabilidade - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

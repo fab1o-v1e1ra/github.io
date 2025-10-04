@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tamires Santos Contabilidade — Soluções Contábeis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      line-height: 1.6;
+      position: relative;
+      overflow-x: hidden;
+      background-color: #fff;
+    }
+
+    /* Fundo com o logo em marca d'água */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('logo_h_v.PNG') no-repeat center center;
+      background-size: 800px auto;
+      opacity: 0.1; /* transparência do logo */
+      z-index: -1; /* mantém atrás de tudo */
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: rgba(255,255,255,0.9);
+      border-bottom: 1px solid #eee;
+    }
+
+    img.logo {
+      height: 90px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background-color: rgba(255,255,255,0.95);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2, h3 {
+      font-family: 'Cormorant Garamond', serif;
+      color: #4F1111;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 1.5em;
+      margin-top: 30px;
+    }
+
+    section ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    section li {
+      margin-bottom: 10px;
+      background: #f9f9f9;
+      padding: 10px;
+      border-left: 3px solid #4F1111;
+      border-radius: 4px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      margin-top: 40px;
+      border-top: 1px solid #eee;
+      color: #555;
+      background-color: rgba(255,255,255,0.9);
+    }
+
+    /* Botão flutuante do WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background-color: #4F1111;
+      color: #FFF;
+      border-radius: 50px;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+      transition: all 0.3s ease;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.05);
+      box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .whatsapp-float svg {
+      width: 24px;
+      height: 24px;
+      fill: #FFF;
+    }
+
+    a {
+      color: #4F1111;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 15px;
+      }
+      .whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+        padding: 8px 14px;
+      }
+      body::before {
+        background-size: 350px auto; /* reduz logo no fundo em telas menores */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="logo_h_v.PNG" alt="Logo Tamires Santos Contabilidade" class="logo">
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre Nós</h2>
+      <ul>
+        <li>Escritório moderno e estratégico.</li>
+        <li>Foco em simplificar a gestão contábil e financeira.</li>
+        <li>Atuação com agilidade, transparência e proximidade.</li>
+        <li>Soluções personalizadas para cada tipo de negócio.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Nossos Serviços</h2>
+      <h3>Abertura e Baixa de Empresas</h3>
+      <ul>
+        <li>Formalização completa e rápida.</li>
+        <li>Regularização em todos os órgãos competentes.</li>
+      </ul>
+
+      <h3>Declaração de Imposto de Renda (PF e PJ)</h3>
+      <ul>
+        <li>Elaboração segura e sem erros.</li>
+        <li>Cumprimento de prazos e conformidade total.</li>
+      </ul>
+
+      <h3>Planejamento Tributário</h3>
+      <ul>
+        <li>Redução legal da carga tributária.</li>
+        <li>Escolha do regime mais vantajoso para o seu negócio.</li>
+      </ul>
+
+      <h3>Regularização de Empresas</h3>
+      <ul>
+        <li>Solução de pendências fiscais e cadastrais.</li>
+        <li>Atualização completa da situação da empresa.</li>
+      </ul>
+
+      <h3>Assessoria Fiscal e Tributária</h3>
+      <ul>
+        <li>Apuração e controle de impostos.</li>
+        <li>Acompanhamento contínuo de obrigações fiscais.</li>
+      </ul>
+
+      <h3>Departamento Pessoal</h3>
+      <ul>
+        <li>Folha de pagamento, eSocial e GFIP.</li>
+        <li>Conformidade trabalhista e suporte aos colaboradores.</li>
+      </ul>
+
+      <h3>Consultoria Financeira e Contábil</h3>
+      <ul>
+        <li>Análise de resultados e saúde financeira.</li>
+        <li>Relatórios gerenciais e tomada de decisão estratégica.</li>
+      </ul>
+
+      <h3>Emissão de Certidões</h3>
+      <ul>
+        <li>Solicitação e acompanhamento de certidões negativas e positivas.</li>
+      </ul>
+
+      <h3>Enquadramento e Desenquadramento de MEI</h3>
+      <ul>
+        <li>Orientação e execução completa do processo.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Público Atendido</h2>
+      <ul>
+        <li>Empresas de pequeno porte.</li>
+        <li>Microempreendedores Individuais (MEIs).</li>
+        <li>Profissionais liberais.</li>
+        <li>Startups e negócios em crescimento.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Nossos Diferenciais</h2>
+      <ul>
+        <li>Atendimento humanizado e próximo.</li>
+        <li>Processos digitais e ágeis.</li>
+        <li>Foco em resultados e economia tributária.</li>
+        <li>Equipe qualificada e atualizada.</li>
+        <li>Comunicação clara e eficiente.</li>
+      </ul>
+    </section>
+
+    <section style="text-align:center">
+      <h2>Contato</h2>
+      <p>Fale conosco e impulsione o seu negócio!</p>
+      <p>
+        📱 WhatsApp: <a href="https://wa.me/5579988516601" target="_blank">79 9 8851-6601</a><br>
+        📧 E-mail: <a href="mailto:tssantoscont@gmail.com">tssantoscont@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © Tamires Santos Contabilidade
+  </footer>
+
+  <a href="https://wa.me/5579988516601" class="whatsapp-float" target="_blank" aria-label="Abrir conversa no WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 221.9-99.6 221.9-222 0-59.3-25.2-115-67.1-157z"/>
+    </svg>
+    <span>Entre em contato</span>
+  </a>
+
+</body>
+</html>
